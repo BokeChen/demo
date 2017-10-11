@@ -1,0 +1,450 @@
+/*样式重写*/
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+img{width:100%}
+
+/*公共类*/
+.fl {
+    float: left
+}
+
+.rt {
+    float: right
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.headbar {
+    width: 100%;
+    height: 2.566666rem;
+    font-size: 0.7rem;
+    line-height: 2.5666rem;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+    color: #08B6F2;
+    border-bottom: 0.027rem solid #999;
+    background: white url("../images/icon-list.png") no-repeat -17.1666rem -18.3rem;
+}
+
+.footer-tab-sel{
+    background-color:rgba(26,24,40,0.3)!important;
+}
+
+/*公共类结束*/
+#header {
+    padding-top: 1.277rem;
+    height: 3.277rem;
+    width: 100%;
+    background-color: #08B6F2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#header button:first-child {
+    width: 1.75rem;
+    height: 1.361rem;
+    background: url('../images/icon-list.png') no-repeat 0 -3.13888rem;
+    border-color: transparent;
+}
+
+#header button:last-child {
+    width: 1.888rem;
+    height: 1.6388rem;
+    background: url('../images/icon-list.png') no-repeat -17.5833rem -3.02rem;
+    border-color: transparent;
+}
+
+#header input {
+    font-size: 0.8rem;
+    width: 14.5rem;
+    height: 1.52777rem;
+    float: left;
+    background: url('../images/icon-list.png') no-repeat 0 -5.19444rem;
+    border-radius: 1.527rem;
+    outline-color: transparent;
+    padding-left: 2rem;
+    color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white !important;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white !important;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white !important;
+}
+
+/* main 区域的样式*/
+
+.main-top {
+    width: 100%;
+    height: 16.16rem;
+    background-color: #08B6F2;
+    padding-top: 0.01rem;
+}
+
+.main-top h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 4.9rem 1rem 1rem;
+}
+
+.main-top > button {
+    width: 5.66666rem;
+    height: 1.72222rem;
+    font-size: 1rem;
+    color: #08B6F2;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    background: url(../images/icon-list.png) -15.861111rem -0.22222rem;
+}
+
+.main-top ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.main-top ul li {
+    margin: 0;
+    width: 24%;
+    height: 1.388888rem;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+}
+
+.main-top ul li p {
+    width: 1.91666rem;
+    height: 1.91666rem;
+    background: url("../images/icon-list.png") -0.1666rem -7.52777rem;
+    margin: 0 auto 1rem;
+}
+
+.main-top ul li:nth-child(2) p {
+    background-position-x: -5.388888rem;
+}
+
+.main-top ul li:nth-child(3) p {
+    background-position-x: -10.72222rem;
+}
+
+.main-top ul li:nth-child(4) p {
+    background-position-x: -16rem;
+}
+
+.main-list {
+    position: relative;
+}
+
+.main-list ul {
+    width: 100%;
+    height: 9.73888rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.main-list ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.main-list ul li a {
+    color: #333;
+}
+
+.main-list ul li p {
+    width: 1.91666rem;
+    height: 1.91666rem;
+    background: url("../images/icon-list.png") 0.0555rem -21.138888rem;
+    margin: 0.8rem auto 0.7rem;
+    position: relative;
+}
+
+.main-list ul li:nth-child(2) p {
+    background-position-x: -5.3888rem;
+}
+
+.main-list ul li:nth-child(3) p {
+    background-position-x: -10.7222rem;
+}
+
+.main-list ul li:nth-child(4) p {
+    background-position-x: -15.9166rem;
+}
+
+.main-list ul li:nth-child(5) p {
+    background-position: -5.30555rem -24.916666rem;
+}
+
+.main-list ul li:nth-child(6) p {
+    background-position: -10.47222rem -24.80555rem;
+}
+
+.main-list ul li:nth-child(7) p {
+    background-position: -15.75rem -24.80555rem;
+}
+
+.main-list ul li:nth-child(8) p {
+    background-position: -20.30555rem -3.36111rem;
+    margin-top: 2rem;
+}
+
+.long-line {
+    width: 93%;
+    height: 0.027777rem;
+    background-image: linear-gradient(to top, #666 20%, white 100%);
+    position: absolute;
+    top: 4.9rem;
+    left: 0.5rem;
+    z-index: 2;
+}
+
+.main-banner {
+    padding: 0.4rem 0;
+    background-color: #eee;
+}
+
+.main-pay div {
+    padding-bottom: 0.3rem;
+    background-color: #eee;
+}
+
+.main-change {
+    width: 100%;
+    height: 9.888rem;
+    padding-bottom: 0.4rem;
+    background-color: #dddddd;
+    box-sizing: border-box;
+
+}
+
+.main-change h1 {
+    margin-bottom: 0;
+}
+
+.main-change form {
+    background-color: white;
+    height: 7rem;
+    padding-top: 0.8rem;
+
+}
+
+.main-change form label {
+    font-size: 0.68rem;
+    padding: 0 0 0 1rem;
+    height: 1.5rem;
+    display: block;
+    position: relative;
+}
+
+.main-change form input {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 8rem;
+    height: 100%;
+}
+
+.main-change form label > button {
+    width: 4.16666rem;
+    height: 1.777rem;
+    background: url('../images/icon-list.png') no-repeat -23.055rem -3.222rem;
+    border: none;
+    position: absolute;
+    bottom: -0.63333rem;
+    right: 1.194444rem;
+}
+
+#main ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+#main :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+#main ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+#main :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+/*.   main-tel-charge          */
+.main-tel-charge div{
+    padding:0 1rem;
+}
+.main-tel-charge p {
+    height: 3.388rem;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.main-tel-charge p label {
+    font-size: 0.7rem;
+
+}
+
+.main-tel-charge p label input {
+  position:absolute;
+    top:0.3888rem;
+    left:4.80555rem;
+    height:2rem;
+    font-size:1rem;
+    width:14rem;
+}
+
+.main-tel-charge p label button{
+    width:1.0408rem;
+    height:1.36111rem;
+    border:none;
+    background:url("../images/icon-list.png") no-repeat -30.19444rem -0.416rem;
+    position: absolute;
+    bottom:1.027rem;
+    right:0.111rem;
+}
+.main-tel-charge p:first-child{
+    border-bottom: 0.027rem solid #999;
+}
+
+.main-tel-charge ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 0.8rem !important;
+    color: #B8B8B8 !important;
+}
+.main-tel-charge p:last-child{
+    display: flex;
+   justify-content: space-around;
+}
+.main-tel-charge p:last-child a{
+    display:inline-block;
+    font-size:0.8rem;
+    width:3.0555rem;
+    height:2.055rem;
+    padding:0.65rem 0.4rem;
+   color:#08B6F2;
+    border:0.0277rem solid #08B6F2;
+    border-radius:0.13888rem ;
+}
+
+
+
+
+
+
+/*               footer               */
+
+#footer {
+    width: 100%;
+    height: 2.97222rem;
+    background: #1A1828;
+    padding-top: 0.3rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#footer a {
+    width: 20%;
+    font-size: 0.6rem;
+    color: #858586 !important;
+    text-align: center;
+    background-color: #1A1828;
+    position: relative;
+    padding-top: 1.6rem;
+
+}
+
+#footer a i {
+    display: block;
+    width: 1.58333rem;
+    height: 1.30555rem;
+    border: none;
+    position: absolute;
+    top: 0.19444rem;
+    left: 32%;
+
+}
+
+#footer a:nth-child(1) i {
+    background: #1A1828 url("../images/icon-list02.jpg") no-repeat 0.08333rem -2.0555rem;
+}
+
+#footer a:nth-child(2) i {
+    width: 1.58333rem;
+    height: 1.138888rem;
+
+    background: #1A1828 url("../images/icon-list02.jpg") no-repeat -2.0555rem -2.1111rem;
+}
+
+#footer a:nth-child(3) i {
+    width: 1.58333rem;
+    height: 1rem;
+
+    background: url("../images/icon-list02.jpg") no-repeat -4.1666rem -2.27777rem;
+}
+
+#footer a:nth-child(4) i {
+    width: 1.3333rem;
+    height: 1.25rem;
+
+    background: #1A1828 url("../images/icon-list02.jpg") no-repeat -6.6666rem -2.27777rem;
+}
+
+#footer a:nth-child(5) i {
+    width: 1.58333rem;
+    height: 1.27777rem;
+
+    background: #1A1828 url("../images/icon-list02.jpg") no-repeat -8.6666rem -2.27777rem;
+}
+#footer b{
+    display: block;
+    width:20%;
+    height:2.97222rem;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color:rgba(125,125,125,0.3);
+}
